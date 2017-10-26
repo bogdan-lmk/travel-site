@@ -1,0 +1,70 @@
+.find-fly {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 70vh;
+  background: url('/assets/image/fyf.png') no-repeat center;
+  background-size: cover;
+  padding: 2% 0;
+}
+.find-fly-headline {
+  display: flex;
+  font-size: 1.875em;
+  justify-content: flex-start;
+  align-self: flex-start;
+  margin-left: 5%;
+  margin-top: 3%;
+}
+
+.find-fly-headline h1{
+  margin: 0;
+  color: #ffffff;
+  font-family: 'Lato';
+  font-size: 2em;
+}
+
+
+.btn-find-fly{
+  background-color: #7fc142;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  border-radius: 50px;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor:pointer;
+  font-weight: 600;
+  padding: 10px 20px;
+  margin-bottom: 10vh;
+  align-self: flex-start;
+  margin-left:5%;
+  margin-top: 2%;
+}
+button.btn-find-fly:focus {
+  outline: none;
+
+
+
+}
+@media (max-width:480px){
+  .find-fly{
+    justify-content: center;
+  }
+}
+@media (max-width:768px) {
+  .find-fly-headline {
+    display: flex;
+    width: 100%;
+    font-size: 1.275em;
+    text-align: center;
+    margin: 0;
+    margin-top: 3%;
+  }
+  .btn-find-fly{
+    margin: 0;
+    margin-top: 5%;
+    align-self: center;
+  }
+}
